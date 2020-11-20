@@ -54,7 +54,23 @@ a {
 .logo {
   width: 200px;
 }
-.nav__btn{
+.nav__btn1{
+  display: inline-block;
+  padding: 0.4em 1.6em;
+  font-size: 0.8em;
+  /* color: #87CEFA; */
+  text-decoration: none;
+  user-select: none;
+  border: 1px red solid;
+  border-radius: 3px;
+  transition: 0.4s ease;
+}
+.nav__btn1:hover{
+  color: #fff;
+  background: #87CEFA;
+}
+
+.nav__btn2{
   display: inline-block;
   padding: 0.4em 1.6em;
   font-size: 0.8em;
@@ -65,10 +81,16 @@ a {
   border-radius: 3px;
   transition: 0.4s ease;
 }
-.nav__btn:hover{
+.nav__btn2:hover{
   color: #fff;
   background: #87CEFA;
 }
+
+
+
+
+
+
 
 .nav__logout{
   display: inline-block;
